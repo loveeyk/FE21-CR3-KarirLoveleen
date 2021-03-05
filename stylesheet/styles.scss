@@ -10,6 +10,10 @@ $font-color2: white;
 $accent1: #bf0a0c;
 $accent2: #cacaca;
 $font-size: large;
+.third {
+    width: 24%;
+}
+
 
 /** HEADER **/
 
@@ -67,6 +71,9 @@ $font-size: large;
 
 .main-wrapper {
     background: white;
+    h2 {
+        text-align: center;
+    }
     .content-section {
         &__row {
             display: flex;
@@ -103,7 +110,7 @@ $font-size: large;
                 transform: scale(1.01);
             }
             p {
-                background-color: black;
+                background-color: #7ab06280;
                 color: white;
                 padding: 1rem 0.5rem;
                 font-size: small;

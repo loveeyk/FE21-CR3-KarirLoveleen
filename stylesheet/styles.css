@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+.third {
+  width: 24%;
+}
+
 /** HEADER **/
 .header {
   display: flex;
@@ -54,6 +58,9 @@
 .main-wrapper {
   background: white;
 }
+.main-wrapper h2 {
+  text-align: center;
+}
 .main-wrapper .content-section__row {
   display: flex;
   flex-direction: column;
@@ -90,7 +97,7 @@
   transform: scale(1.01);
 }
 .main-wrapper .content-section__imagewrapper p {
-  background-color: black;
+  background-color: #7ab06280;
   color: white;
   padding: 1rem 0.5rem;
   font-size: small;
