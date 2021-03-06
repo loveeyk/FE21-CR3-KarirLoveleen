@@ -1,0 +1,21 @@
+<svg width="600" height="600" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <defs>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_24_blur">
+   <feGaussianBlur stdDeviation="2" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g stroke="null" id="Layer_1">
+  <title>Layer 1</title>
+  <rect stroke="#fcfcfc" id="svg_5" height="600" width="600" y="0.5" x="0.16668" opacity="undefined" stroke-dasharray="null" stroke-width="27" fill="#06ad9f"/>
+  <rect stroke="#ffffff" id="svg_7" height="527.81013" width="525.56412" y="36.52323" x="37.21795" opacity="undefined" stroke-dasharray="null" stroke-width="6" fill="#06ad9f"/>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="'Nunito ExtraLight'" font-size="88" id="svg_2" y="464" x="53.5" opacity="undefined" stroke-dasharray="null" stroke-width="0" stroke="#0000e2" fill="#000000">daily dose of</text>
+  <text xml:space="preserve" text-anchor="start" font-family="'Nunito ExtraLight'" font-size="88" id="svg_3" y="540.66667" x="168.16667" opacity="undefined" stroke-opacity="null" stroke-dasharray="null" stroke-width="0" stroke="#ffffff" fill="#ffffff">cuisine</text>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_9" y2="518.66667" x2="162" y1="518.66667" x1="58" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="6" stroke="#ffffff" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_10" y2="518.66667" x2="543.33333" y1="518.66667" x1="439.33333" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="6" stroke="#ffffff" fill="none"/>
+  <path id="svg_21" d="m153.00122,397.3957c10.77189,-35.26995 25.51565,-65.13994 39.50104,-80.02669c14.98309,-15.94877 8.33561,-22.86684 -7.12067,-7.41054c-6.50265,6.5026 -8.36054,1.781 -8.36054,-21.24731c0,-54.94372 28.48177,-88.94129 97.01044,-115.79739c57.98542,-22.72435 100.73548,-48.27936 118.46058,-70.81312l14.44376,-18.36232l0,31.94863c0,39.50496 -12.2564,99.18739 -25.82312,125.74548c-14.39187,28.17349 -63.72176,80.1776 -87.92874,92.69548c-21.68731,11.215 -68.00444,14.51663 -92.75877,6.61217c-12.3361,-3.93907 -16.25119,-0.92942 -22.64312,17.40645c-4.25046,12.19286 -7.72812,29.5391 -7.72812,38.54707c0,10.22653 -4.1016,16.37807 -10.92018,16.37807c-8.09842,0 -9.68305,-4.05058 -6.13254,-15.67598l-0.00001,0z" opacity="undefined" stroke-opacity="null" stroke-dasharray="null" stroke-width="0" stroke="#ffffff" fill="#33666C"/>
+  <path id="svg_22" d="m328.5282,364.93428c0.04886,-0.15997 0.11573,-0.29544 0.17916,-0.36296c0.06796,-0.07234 0.03781,-0.10371 -0.0323,-0.03361c-0.02949,0.02949 -0.03792,0.00808 -0.03792,-0.09637c0,-0.2492 0.12918,-0.40339 0.43999,-0.5252c0.26299,-0.10307 0.45689,-0.21897 0.53728,-0.32117l0.06551,-0.08328l0,0.1449c0,0.17918 -0.05559,0.44987 -0.11712,0.57032c-0.06527,0.12778 -0.28901,0.36365 -0.3988,0.42042c-0.09836,0.05087 -0.30843,0.06584 -0.42071,0.02999c-0.05595,-0.01787 -0.07371,-0.00422 -0.1027,0.07895c-0.01928,0.0553 -0.03505,0.13398 -0.03505,0.17483c0,0.04638 -0.0186,0.07428 -0.04953,0.07428c-0.03673,0 -0.04392,-0.01837 -0.02781,-0.0711l0,0z" opacity="undefined" stroke-opacity="null" stroke-dasharray="null" stroke-width="0" stroke="#ffffff" fill="#1A333F"/>
+  <text filter="url(#svg_24_blur)" stroke="#545454" transform="matrix(2.5512821145321567,0,0,2.5512821674346924,-0.7756410365304123,0.7756410837173462) " font-style="normal" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="'Poppins Light'" font-size="89" id="svg_24" y="106.18342" x="22.13929" opacity="undefined" stroke-dasharray="null" stroke-width="0" fill="#3d3d3d">DDC</text>
+  <text stroke="#545454" transform="matrix(2.5512821145321567,0,0,2.5512821674346924,-0.7756410365304123,0.7756410837173462) " font-style="normal" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="'Poppins Light'" font-size="89" id="svg_8" y="105.13819" x="21.09406" opacity="undefined" stroke-dasharray="null" stroke-width="0" fill="#ffffff">DDC</text>
+ </g>
+</svg>

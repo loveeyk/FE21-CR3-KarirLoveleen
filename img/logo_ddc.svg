@@ -1,0 +1,12 @@
+<svg width="600" height="600" xmlns="http://www.w3.org/2000/svg" stroke="null" style="vector-effect: non-scaling-stroke;">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g stroke="null" id="Layer_1">
+  <title stroke="null">Layer 1</title>
+  <g stroke="null" id="svg_9">
+   <rect stroke="#000" id="svg_5" height="599.55131" width="597.00001" y="1.5" x="1.5" opacity="undefined" stroke-opacity="null" stroke-dasharray="null" stroke-width="0" fill="#06ad9f"/>
+   <rect stroke="#ffffff" id="svg_7" height="527.81013" width="525.56412" y="37.52323" x="37.21795" opacity="undefined" stroke-dasharray="null" stroke-width="6" fill="#06ad9f"/>
+   <text stroke="#ffffff" transform="matrix(2.5512821145321567,0,0,2.5512821674346924,-0.7756410365304123,0.7756410837173462) " font-style="normal" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="'Nunito ExtraLight'" font-size="68" id="svg_8" y="140.28392" x="48.92321" opacity="undefined" stroke-dasharray="null" stroke-width="3" fill="none">DDC</text>
+  </g>
+ </g>
+</svg>
