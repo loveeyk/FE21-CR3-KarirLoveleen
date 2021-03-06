@@ -25,7 +25,7 @@ body {
     background: url(../img/main1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: right;
     display: flex;
     flex-direction: column;
     &::before {
@@ -41,8 +41,8 @@ body {
         display: flex;
         align-items: center;
         flex-flow: row nowrap;
-        border-bottom: 4px solid #8282823b;
-        background: #00000094;
+        border-bottom: 2px solid #dcdcdc0d;
+        background: #0000001c;
         flex: 1;
         z-index: 1000;
         .logo {
