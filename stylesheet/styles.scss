@@ -44,6 +44,7 @@ body {
         border-bottom: 4px solid #8282823b;
         background: #00000094;
         flex: 1;
+        z-index: 1000;
         .logo {
             height: 6rem;
             filter: contrast(1.9) brightness(1) hue-rotate( 286deg);
@@ -77,13 +78,15 @@ body {
             padding: 1rem;
         }
         .hero-subtitle {
-            padding: 1rem;
+            padding: 0.5rem 0;
             width: 100%;
             text-align: center;
-            background: $color_highlight;
-            color: black;
+            background: #00000069;
+            color: white;
             font-weight: 200;
             margin: 1rem;
+            border-top: 1px solid white;
+            border-bottom: 1px solid white;
         }
         .hero-btn {
             width: 180px;
@@ -125,4 +128,15 @@ body {
 
 .main-content {
     background: #eee;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10vw;
+    color: black;
+    border-bottom: 1px solid black;
+    background-image: url(../img/starter4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    filter: grayscale(1.1)
 }
