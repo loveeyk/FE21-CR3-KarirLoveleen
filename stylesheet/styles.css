@@ -15,7 +15,7 @@ body {
   color: #5edf06;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 450px) {
   .hide-bg-on-mobile {
     background-image: none !important;
   }
@@ -50,7 +50,7 @@ body {
   flex: 1;
   z-index: 1000;
 }
-@media (max-width: 376px) {
+@media (max-width: 450px) {
   .hero .navbar {
     flex-direction: column;
   }
@@ -89,7 +89,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-@media (max-width: 376px) {
+@media (max-width: 450px) {
   .hero-content {
     justify-content: space-around;
   }
@@ -161,12 +161,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-@media (max-width: 376px) {
+@media (max-width: 1024px) {
   .main-content .hero-section {
-    height: unset;
+    height: auto;
   }
 }
-@media (min-width: 376px) {
+@media (min-width: 450px) {
   .main-content .hero-section::before {
     position: absolute;
     content: "";
@@ -181,7 +181,7 @@ body {
   z-index: 10;
   font-size: 4rem;
 }
-@media (max-width: 376px) {
+@media (max-width: 450px) {
   .main-content .hero-section__heading {
     color: black;
   }
@@ -216,13 +216,13 @@ body {
   margin: 0.5rem;
   box-sizing: border-box;
 }
-@media (min-width: 376px) and (max-width: 1024px) {
+@media (min-width: 450px) and (max-width: 1024px) {
   .main-content .hero-section .flex-wrapper .food-card {
     width: 45vw;
     height: 45vw;
   }
 }
-@media (max-width: 376px) {
+@media (max-width: 450px) {
   .main-content .hero-section .flex-wrapper .food-card {
     width: 90vw;
     height: 90vw;
@@ -259,7 +259,7 @@ body {
   margin: 0.3rem 0;
   font-weight: bolder;
 }
-@media (min-width: 376px) and (max-width: 1024px) {
+@media (min-width: 450px) and (max-width: 1024px) {
   .main-content .hero-section .flex-wrapper .food-card__description-heading {
     font-size: 3.5vw;
   }
@@ -271,7 +271,7 @@ body {
     font-size: 1.1rem;
   }
 }
-@media (max-width: 376px) {
+@media (max-width: 450px) {
   .main-content .hero-section .flex-wrapper .food-card__description-heading {
     font-size: 6.6vw;
   }
