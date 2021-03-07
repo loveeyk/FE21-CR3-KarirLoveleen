@@ -179,7 +179,7 @@ body {
 }
 .main-content .hero-section__heading {
   z-index: 10;
-  font-size: xx-large;
+  font-size: 4rem;
 }
 @media (max-width: 376px) {
   .main-content .hero-section__heading {
@@ -216,7 +216,7 @@ body {
   margin: 0.5rem;
   box-sizing: border-box;
 }
-@media (min-width: 376px) and (max-width: 768px) {
+@media (min-width: 376px) and (max-width: 1024px) {
   .main-content .hero-section .flex-wrapper .food-card {
     width: 45vw;
     height: 45vw;
@@ -259,7 +259,7 @@ body {
   margin: 0.3rem 0;
   font-weight: bolder;
 }
-@media (min-width: 376px) and (max-width: 768px) {
+@media (min-width: 376px) and (max-width: 1024px) {
   .main-content .hero-section .flex-wrapper .food-card__description-heading {
     font-size: 3.5vw;
   }

@@ -3,7 +3,7 @@
 $color1: white;
 $color_highlight: #5edf06;
 $mobile: 376px;
-$tablet: 768px;
+$tablet: 1024px;
 * {
     padding: 0;
     margin: 0;
@@ -179,7 +179,7 @@ body {
         }
         &__heading {
             z-index: 10;
-            font-size: xx-large;
+            font-size: 4rem;
             @media(max-width: $mobile) {
                 color: black;
             }
