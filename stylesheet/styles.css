@@ -15,6 +15,12 @@ body {
   color: #5edf06;
 }
 
+@media (max-width: 376px) {
+  .hide-bg-on-mobile {
+    background-image: none !important;
+  }
+}
+
 .hero {
   position: relative;
   width: 100vw;
@@ -44,6 +50,18 @@ body {
   flex: 1;
   z-index: 1000;
 }
+@media (max-width: 376px) {
+  .hero .navbar {
+    flex-direction: column;
+  }
+  .hero .navbar ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero .navbar ul .nav-link {
+    padding: 1rem 0;
+  }
+}
 .hero .navbar .logo {
   height: 6rem;
   filter: contrast(1.9) brightness(1) hue-rotate(286deg);
@@ -70,6 +88,14 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 376px) {
+  .hero-content {
+    justify-content: space-around;
+  }
+  .hero-content .hero-title {
+    text-align: center;
+  }
 }
 .hero-content .hero-title {
   font-size: 8vw;
@@ -135,18 +161,30 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.main-content .hero-section::before {
-  position: absolute;
-  content: "";
-  background: radial-gradient(rgba(0, 0, 0, 0.555), black 72%);
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
+@media (max-width: 376px) {
+  .main-content .hero-section {
+    height: unset;
+  }
+}
+@media (min-width: 376px) {
+  .main-content .hero-section::before {
+    position: absolute;
+    content: "";
+    background: radial-gradient(rgba(0, 0, 0, 0.555), black 72%);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
 }
 .main-content .hero-section__heading {
   z-index: 10;
   font-size: xx-large;
+}
+@media (max-width: 376px) {
+  .main-content .hero-section__heading {
+    color: black;
+  }
 }
 .main-content .hero-section--starters {
   background-image: url(../img/starter4.jpg);
@@ -178,6 +216,18 @@ body {
   margin: 0.5rem;
   box-sizing: border-box;
 }
+@media (min-width: 376px) and (max-width: 768px) {
+  .main-content .hero-section .flex-wrapper .food-card {
+    width: 45vw;
+    height: 45vw;
+  }
+}
+@media (max-width: 376px) {
+  .main-content .hero-section .flex-wrapper .food-card {
+    width: 90vw;
+    height: 90vw;
+  }
+}
 .main-content .hero-section .flex-wrapper .food-card__image-wrapper {
   flex: 2;
   overflow: hidden;
@@ -208,4 +258,28 @@ body {
   font-size: 0.6rem;
   margin: 0.3rem 0;
   font-weight: bolder;
+}
+@media (min-width: 376px) and (max-width: 768px) {
+  .main-content .hero-section .flex-wrapper .food-card__description-heading {
+    font-size: 3.5vw;
+  }
+  .main-content .hero-section .flex-wrapper .food-card__description-text {
+    font-size: 1.8vw;
+    height: 3rem;
+  }
+  .main-content .hero-section .flex-wrapper .food-card__description-price {
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 376px) {
+  .main-content .hero-section .flex-wrapper .food-card__description-heading {
+    font-size: 6.6vw;
+  }
+  .main-content .hero-section .flex-wrapper .food-card__description-text {
+    font-size: 3.4vw;
+    height: 3rem;
+  }
+  .main-content .hero-section .flex-wrapper .food-card__description-price {
+    font-size: 1.5rem;
+  }
 }/*# sourceMappingURL=styles.css.map */
