@@ -395,7 +395,8 @@ body {
         font-size: 1.5rem;
     }
     &__icon-row {
-        font-size: 3rem;
+        font-size: 2rem;
+        display: flex;
         .fa-twitter-square:hover {
             color: #59a1ff;
             transition: color 300ms ease-in-out;

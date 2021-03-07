@@ -401,7 +401,8 @@ body {
   font-size: 1.5rem;
 }
 .footer-section__icon-row {
-  font-size: 3rem;
+  font-size: 2rem;
+  display: flex;
 }
 .footer-section__icon-row .fa-twitter-square:hover {
   color: #59a1ff;
