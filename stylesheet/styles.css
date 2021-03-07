@@ -2,6 +2,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -122,18 +123,89 @@ body {
   color: #5edf06;
 }
 
-.main-content {
-  background: #eee;
+.main-content .hero-section {
   height: 100vh;
+  width: 100vw;
+  position: relative;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 10vw;
-  color: black;
-  border-bottom: 1px solid black;
-  background-image: url(../img/starter4.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  filter: grayscale(1.1);
+}
+.main-content .hero-section::before {
+  position: absolute;
+  content: "";
+  background: radial-gradient(rgba(0, 0, 0, 0.555), black 72%);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.main-content .hero-section__heading {
+  z-index: 10;
+  font-size: xx-large;
+}
+.main-content .hero-section--starters {
+  background-image: url(../img/starter4.jpg);
+}
+.main-content .hero-section--maincourse {
+  background-image: url(../img/main.jpg);
+}
+.main-content .hero-section--desserts {
+  background-image: url(../img/drink.jpg);
+}
+.main-content .hero-section--beverages {
+  background-image: url(../img/dessert.jpg);
+}
+.main-content .hero-section .flex-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+.main-content .hero-section .flex-wrapper .food-card {
+  display: inline-flex;
+  flex-direction: column;
+  width: 20vw;
+  height: 20vw;
+  background: white;
+  margin: 0.5rem;
+  box-sizing: border-box;
+}
+.main-content .hero-section .flex-wrapper .food-card__image-wrapper {
+  flex: 2;
+  overflow: hidden;
+  position: relative;
+}
+.main-content .hero-section .flex-wrapper .food-card__image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-content .hero-section .flex-wrapper .food-card__description {
+  flex: 1;
+  color: black;
+  font-weight: 200;
+  padding: 0.3rem;
+}
+.main-content .hero-section .flex-wrapper .food-card__description-heading {
+  font-size: 1.5vw;
+  margin: 0.3rem 0;
+}
+.main-content .hero-section .flex-wrapper .food-card__description-text {
+  font-size: 1vw;
+  margin: 0.3rem 0;
+  height: 2rem;
+}
+.main-content .hero-section .flex-wrapper .food-card__description-price {
+  font-size: 0.6rem;
+  margin: 0.3rem 0;
+  font-weight: bolder;
 }/*# sourceMappingURL=styles.css.map */
