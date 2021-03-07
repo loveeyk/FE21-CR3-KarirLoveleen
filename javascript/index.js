@@ -41,3 +41,19 @@ combinations.forEach((combination, i) => {
 // (10 points) Create a function studentInvoice that will apply a 10% discount to the final invoice. This function should have the same parameters as the function calculateInvoice. This discount applies to the dishes but NOT the beverages. Print 3 examples of studentInvoice on the console.
 
 let studentInvoice = (stp, mdp, dp, bp) => calculateInvoice(stp * 0.9, mdp * 0.9, dp * 0.9, bp) //can reuse the function from above
+
+//For Modal - TODO implement rating functionality
+
+let modal = document.querySelector('.rating-modal')
+let stars = document.querySelector('#stars')
+
+//toggle modal class hide
+let toggleModal = () => {
+    modal.classList.toggle('hide')
+}
+
+//if stars get clicked in footer open modal
+stars.addEventListener('click', toggleModal)
+
+//if anything gets clicked when modal is open close it again - (no good solution -> TODO)
+modal.addEventListener('click', toggleModal)

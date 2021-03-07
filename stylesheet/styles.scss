@@ -14,11 +14,61 @@ body {
     scroll-behavior: smooth;
     font-family: 'Work Sans', sans-serif;
     color: $color1;
+    position: relative;
+}
+
+.rating-modal {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    display: flex;
+    z-index: 10000;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1 {
+        padding: 1rem;
+    }
+    &__row-wrapper {
+        @media(max-width: $mobile) {
+            width: 90%;
+        }
+        display: flex;
+        flex-direction: column;
+        overflow-y: auto;
+        width: 75%;
+        margin: 1rem 0;
+        border: 4px solid white;
+        border-bottom: unset;
+    }
+    &__row {
+        display: inline-flex;
+        flex-direction: column;
+        background: #ccc;
+        margin: 1px;
+        padding: 1rem;
+        color: black;
+        p {
+            padding: 0 1rem;
+        }
+    }
+    &__stars {
+        padding: 1rem;
+        display: inline-flex;
+        flex-direction: row;
+        font-size: 1.5rem;
+    }
 }
 
 //GLOBALS
 .highlight {
     color: $color_highlight;
+}
+
+.larger {
+    font-size: larger;
 }
 
 .hide-bg-on-mobile {
@@ -31,6 +81,10 @@ body {
     @media(max-width: $mobile) {
         display: none
     }
+}
+
+.hide {
+    display: none;
 }
 
 .hero {
@@ -316,6 +370,17 @@ body {
     &__logo {
         width: 30%;
         filter: contrast(1.9) brightness(1) hue-rotate( 286deg);
+    }
+    //mitte
+    &__rating {
+        width: 100%;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        i:hover {
+            color: $color_highlight;
+        }
     }
     //rechts
     &__social-media {
