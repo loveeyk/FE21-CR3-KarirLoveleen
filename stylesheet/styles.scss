@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300&display=swap');
 //Variable
 $color1: white;
-$color_highlight: #5edf06;
+$color_highlight: #60e904;
 $mobile: 450px;
 $tablet: 1024px;
 * {
@@ -59,7 +59,7 @@ body {
                 flex-direction: column;
                 align-items: center;
                 .nav-link {
-                    padding: 1rem 0
+                    padding: 1rem 0;
                 }
             }
         }
@@ -83,6 +83,9 @@ body {
             .nav-link {
                 display: inline-block;
                 a {
+                    &:hover {
+                        color: $color_highlight;
+                    }
                     color: $color1;
                     text-decoration: none;
                     font-size: larger;
