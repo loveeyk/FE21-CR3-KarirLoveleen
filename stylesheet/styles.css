@@ -21,6 +21,12 @@ body {
   }
 }
 
+@media (max-width: 450px) {
+  .hide-on-mobile {
+    display: none;
+  }
+}
+
 .hero {
   position: relative;
   width: 100vw;
@@ -50,7 +56,7 @@ body {
   flex: 1;
   z-index: 1000;
 }
-@media (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .hero .navbar {
     flex-direction: column;
   }
@@ -180,6 +186,7 @@ body {
 .main-content .hero-section__heading {
   z-index: 10;
   font-size: 4rem;
+  padding: 1rem 0;
 }
 @media (max-width: 450px) {
   .main-content .hero-section__heading {
@@ -282,4 +289,60 @@ body {
   .main-content .hero-section .flex-wrapper .food-card__description-price {
     font-size: 1.5rem;
   }
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: row;
+  background: black;
+  border-top: 1px solid white;
+  padding: 1.5rem 1rem;
+}
+@media (max-width: 450px) {
+  .footer-section {
+    flex-direction: column;
+    background: #f3f3f3;
+    color: black;
+  }
+}
+.footer-section__info {
+  display: inline-flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.footer-section__logo-text {
+  font-size: 1.5rem;
+  margin: 0.5rem 0 1rem;
+}
+.footer-section__logo {
+  width: 30%;
+  filter: contrast(1.9) brightness(1) hue-rotate(286deg);
+}
+.footer-section__social-media {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-section__heading {
+  font-size: 1.5rem;
+}
+.footer-section__icon-row {
+  font-size: 3rem;
+}
+.footer-section__icon-row .fa-twitter-square:hover {
+  color: #59a1ff;
+  transition: color 300ms ease-in-out;
+}
+.footer-section__icon-row .fa-facebook-square:hover {
+  color: #1977f2;
+  transition: color 300ms ease-in-out;
+}
+.footer-section__icon-row .fa-instagram:hover {
+  color: magenta;
+  transition: color 300ms ease-in-out;
 }/*# sourceMappingURL=styles.css.map */

@@ -27,6 +27,12 @@ body {
     }
 }
 
+.hide-on-mobile {
+    @media(max-width: $mobile) {
+        display: none
+    }
+}
+
 .hero {
     position: relative;
     width: 100vw;
@@ -47,7 +53,7 @@ body {
         background: linear-gradient( 360deg, black, #00000007);
     }
     .navbar {
-        @media(max-width: $mobile) {
+        @media screen and (max-width: $mobile) {
             flex-direction: column;
             ul {
                 flex-direction: column;
@@ -180,6 +186,7 @@ body {
         &__heading {
             z-index: 10;
             font-size: 4rem;
+            padding: 1rem 0;
             @media(max-width: $mobile) {
                 color: black;
             }
@@ -275,6 +282,62 @@ body {
                     }
                 }
             }
+        }
+    }
+}
+
+.footer-section {
+    @media(max-width: $mobile) {
+        flex-direction: column;
+        background: #f3f3f3;
+        color: black;
+    }
+    display: flex;
+    flex-direction: row;
+    background: black;
+    border-top: 1px solid white;
+    padding: 1.5rem 1rem;
+    //links
+    &__info {
+        display: inline-flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    &__logo-text {
+        font-size: 1.5rem;
+        margin: 0.5rem 0 1rem;
+    }
+    &__logo {
+        width: 30%;
+        filter: contrast(1.9) brightness(1) hue-rotate( 286deg);
+    }
+    //rechts
+    &__social-media {
+        width: 100%;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    &__heading {
+        font-size: 1.5rem;
+    }
+    &__icon-row {
+        font-size: 3rem;
+        .fa-twitter-square:hover {
+            color: #59a1ff;
+            transition: color 300ms ease-in-out;
+        }
+        .fa-facebook-square:hover {
+            color: #1977f2;
+            transition: color 300ms ease-in-out;
+        }
+        .fa-instagram:hover {
+            color: magenta;
+            transition: color 300ms ease-in-out;
         }
     }
 }
